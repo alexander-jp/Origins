@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <!--    <com.google.android.material.bottomnavigation.BottomNavigationView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/bottomNavigationmViewHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:elevation="6dp"
+            app:itemIconTint="@color/state_pressed"
+            app:itemRippleColor="@color/state_checked"
+            app:itemTextColor="@color/state_pressed"
+            app:labelVisibilityMode="labeled"
+            app:menu="@menu/menu_principal">
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>-->
+
+    <com.fxn.BubbleTabBar
+        android:id="@+id/bubbleTabBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FFF"
+        android:elevation="16dp"
+        android:padding="7dp"
+        app:bubbletab_custon_font="@font/nunito_extralight"
+        app:bubbletab_disabled_icon_color="@color/colorPrimaryDark"
+        app:bubbletab_horizontal_padding="20dp"
+        app:bubbletab_icon_size="20dp"
+        app:bubbletab_menuResource="@menu/menu_principal"
+        app:bubbletab_title_size="16sp"
+        app:bubbletab_vertical_padding="10dp"/>
+</RelativeLayout>

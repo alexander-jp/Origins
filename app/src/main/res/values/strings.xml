@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Cinetux</string>
+    <string name="inicio">Inicio</string>
+    <string name="renta">Buscar</string>
+    <string name="favoritos">Descargas</string>
+    <string name="configuracion">Configuración</string>
+    <string name="textos">Obtén credenciales reconocidas por los empleadores y lleva tu carrera al
+        siguiente nivel</string>
+</resources>
